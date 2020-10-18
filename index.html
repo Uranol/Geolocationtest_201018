@@ -17,10 +17,9 @@
     <a-scene
         vr-mode-ui="enabled: false"
 		embedded
-        arjs='sourceType: webcam; sourceWidth:1280; sourceHeight:960; displayWidth: 1280; displayHeight: 960; debugUIEnabled: false;'
-	      >
-         <a-entity gltf-model=".\assets\cop_lowpoly_gltf_200810.gltf" rotation="0 180 0" scale="5 5 5" gps-entity-place="longitude: 13.379960; latitude: 52.550850;" animation-mixer/>
-      
+        arjs='sourceType: webcam; sourceWidth:1280; sourceHeight:960; displayWidth: 1280; displayHeight: 960; debugUIEnabled: false;'>
+        
+<a-box color="yellow" gps-entity-place="latitude: 52.550850; longitude: 13.379960" scale="2 2 2" />
 
         <a-camera gps-camera rotation-reader></a-camera>
 	</a-scene>
